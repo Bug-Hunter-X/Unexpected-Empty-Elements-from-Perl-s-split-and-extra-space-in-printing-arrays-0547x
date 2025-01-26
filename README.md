@@ -1,0 +1,2 @@
+# Perl split and print array bug
+This repository contains a Perl script demonstrating a subtle bug related to the `split` function and printing arrays. The script highlights how `split` can produce empty elements when encountering consecutive whitespace characters and how using `@array` inside double quotes in `print` leads to extra spaces between array elements. A solution demonstrates safe array handling and printing.
